@@ -1,8 +1,10 @@
 import itertools
 
-anytimeTd = [["1a", "1b", "1c", "1d"],
-             ["2a", "2b", "2c", "2d"],
-             ["3a", "3b", "3c", "3d"],
-             ["4a", "4b", "4c", "4d"]]
+mainLeg = ["a", "b", "c", "d"]
 
-foo = itertools.
+defenses = ["1", "2", "3", "4"]
+
+subLegs = []
+
+for comb in itertools.combinations(mainLeg, 3):
+    print comb
